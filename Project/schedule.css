@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condense';
+}
+.heading{
+   padding: 50px;
+   background-color: #3a698d;
+}
+.conference  a{
+   text-decoration: none;
+   text-align: center;
+   color: #fff;
+   justify-content: space-around;
+   font-size: 60px;
+   text-decoration: none;
+   margin-left: 100px;
+}
+.conference p{
+   float: right;
+   color: rgb(189, 178, 178);
+}
+.nav-links ul{
+   display: flex;
+   float: right;
+   list-style-type: none;
+   margin-right: 100px;
+}
+.nav-link a{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+}
+.nav-link a:hover{
+   color: grey;
+}
+@media (min-width: 998px) {
+  section {
+    grid-template-areas:
+      "main event"
+      "main event";
+  }
+}
+section .events {
+  background-color: rgba(248, 242, 242, 0.932);
+  box-sizing: border-box;
+  grid-area: inherit;
+}
+
+section .events ul {
+  margin: 0;
+  padding: 200px;
+  list-style: none;
+}
+
+section .events ul li {
+  background-color: #fff;
+  box-sizing: border-box;
+  grid-template-columns: 30% 1fr;
+  display: grid;
+  grid-template-rows: 0;
+  grid-gap: 0;
+  grid-template-areas:
+    "time time"
+    "detail detail";
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  section .events ul li {
+    grid-template-areas:
+      "time detail"
+      "time detail";
+  }
+}
+
+section .events ul li .time {
+  grid-area: time;
+  position: relative;
+  padding: 6% 40%;
+  background-color: #262626;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  transition: 0.5s;
+}
+
+section .events ul li:hover .time {
+  background-color: #1e9fe9;
+}
+
+section .events ul li .time h2 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 40px;
+  line-height: 30px;
+}
+
+section .events ul li .time h2 span {
+  font-size: 20px;
+}
+
+section .events ul li .details {
+  grid-area: detail;
+  padding: 10px 10px 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+section .events ul li .details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+section .events ul li .details p {
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+section .events ul li .details a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 2px solid #262626;
+  margin-top: 16px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+section .events ul li .details a:hover {
+  background-color: #1e6fe9;
+  color: #fff;
+  border-color: #1e54e9;
+}
+.last{
+   padding-bottom: 5px;
+   background-color: #3a698d;
+   color: #fff;
+}
+.last1 p{
+   text-align: center;
+}

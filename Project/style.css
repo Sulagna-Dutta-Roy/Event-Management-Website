@@ -1,0 +1,126 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.heading{
+    padding: 50px;
+    background-color: #3a698d;
+}
+.conference  a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    justify-content: space-around;
+    font-size: 60px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.conference p{
+    float: right;
+    color: rgb(189, 178, 178);
+}
+.nav-links ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-right: 100px;
+}
+.nav-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.nav-link a:hover{
+    color: grey;
+}
+.info1{
+    text-align: center;
+    margin-top: 10px;
+}
+.info1 h1{
+    color: rgb(202, 178, 178);
+}
+.info1 p{
+    color: #fff;
+    font-size: 20px;
+    border: 40px;
+}
+.btn{
+    color: #fff;
+    background-color: #3a698d;
+    font-size: 30px;
+    border-radius: 1px;
+}
+.btn:hover{
+    color: grey;
+    background-color: #fff;
+}
+.events{
+    display: inline-flex;
+    text-align: center;
+}
+.events1 p{
+    color: grey;
+    font-size: 15px;
+    border: 5px solid #fff;
+}
+.events1 h3{
+    color: grey;
+}
+.purchase{
+    display: flex;
+    margin-top: 20px;
+}
+.purchase1{
+    font-size: 20px;
+    border: 0px solid #fff;
+    margin-left: 200px;
+}
+.purchase1 p{
+    font-size: 15px;
+    border-radius: 5px;
+}
+.home{
+    background-color: antiquewhite;
+}
+.home1 p{
+    margin-left: 280px;
+}
+.venue{
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+.venue1{
+    color: grey;
+}
+.last {
+    background-color: #3a698d;
+    color: #fff;
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+}
+.speakers{
+    text-align: center;
+    color: grey;
+    display: block;
+}
+.biography1 img{
+    text-align: center;
+}
+.biography1 p{
+    font-weight: 300;
+    border: 10px;
+}
+.footer{
+    padding-bottom: 5px;
+    background-color: #3a698d;
+    color: #fff;
+}
+.footer p{
+    text-align: center;
+}
